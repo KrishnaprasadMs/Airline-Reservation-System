@@ -1,0 +1,278 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>CancelFlight</servlet-name>
+  	<display-name>CancelFlight</display-name>
+  	<description></description>
+  	<servlet-class>userservlet.CancelFlight</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UpdateFlight</servlet-name>
+  	<display-name>UpdateFlight</display-name>
+  	<description></description>
+  	<servlet-class>userservlet.UpdateFlight</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SreachFlight</servlet-name>
+  	<display-name>SreachFlight</display-name>
+  	<description></description>
+  	<servlet-class>userservlet.SreachFlight</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>InsertFlight</servlet-name>
+  	<display-name>InsertFlight</display-name>
+  	<description></description>
+  	<servlet-class>userservlet.InsertFlight</servlet-class>
+  </servlet>
+<servlet>
+  	<servlet-name>ViewByAdmin</servlet-name>
+  	<display-name>ViewByAdmin</display-name>
+  	<description></description>
+  	<servlet-class>adminservlet.ViewByAdmin</servlet-class>
+  </servlet>
+<servlet>
+	<servlet-name>InsertFlights</servlet-name>
+	<display-name>InsertFlights</display-name>
+	<description></description>
+	<servlet-class>adminservlet.InsertFlights</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>DeleteFlights</servlet-name>
+	<display-name>DeleteFlights</display-name>
+	<description></description>
+	<servlet-class>adminservlet.DeleteFlights</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>UpadateFlights</servlet-name>
+	<display-name>UpadateFlights</display-name>
+	<description></description>
+	<servlet-class>adminservlet.UpadateFlights</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>UserLoginServlet</servlet-name>
+	<display-name>UserLoginServlet</display-name>
+	<description></description>
+	<servlet-class>userloginservletclasses.UserLoginServlet</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>UserDeleteServlet</servlet-name>
+	<display-name>UserDeleteServlet</display-name>
+	<description></description>
+	<servlet-class>userloginservletclasses.UserDeleteServlet</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>UserUpdateServlet</servlet-name>
+	<display-name>UserUpdateServlet</display-name>
+	<description></description>
+	<servlet-class>userloginservletclasses.UserUpdateServlet</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>UserViewServlet</servlet-name>
+	<display-name>UserViewServlet</display-name>
+	<description></description>
+	<servlet-class>userloginservletclasses.UserViewServlet</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>AddHotel</servlet-name>
+	<display-name>AddHotel</display-name>
+	<description></description>
+	<servlet-class>serversideclasses.AddHotel</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>DeleteHotel</servlet-name>
+	<display-name>DeleteHotel</display-name>
+	<description></description>
+	<servlet-class>serversideclasses.DeleteHotel</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>UpdateHotel</servlet-name>
+	<display-name>UpdateHotel</display-name>
+	<description></description>
+	<servlet-class>serversideclasses.UpdateHotel</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>UpdateHotelName</servlet-name>
+	<display-name>UpdateHotelName</display-name>
+	<description></description>
+	<servlet-class>serversideclasses.UpdateHotelName</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>UpdateHotelPlace</servlet-name>
+	<display-name>UpdateHotelPlace</display-name>
+	<description></description>
+	<servlet-class>serversideclasses.UpdateHotelPlace</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>UpdateRoom</servlet-name>
+	<display-name>UpdateRoom</display-name>
+	<description></description>
+	<servlet-class>serversideclasses.UpdateRoom</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>ViewHotels</servlet-name>
+	<display-name>ViewHotels</display-name>
+	<description></description>
+	<servlet-class>serversideclasses.ViewHotels</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>ViewEditDelete</servlet-name>
+	<display-name>ViewEditDelete</display-name>
+	<description></description>
+	<servlet-class>adminservlet.ViewEditDelete</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>UserSearchFlight</servlet-name>
+	<display-name>UserSearchFlight</display-name>
+	<description></description>
+	<servlet-class>userloginservletclasses.UserSearchFlight</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>InsertBooking</servlet-name>
+	<display-name>InsertBooking</display-name>
+	<description></description>
+	<servlet-class>bookingservlet.InsertBooking</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>UserIdAutoFill</servlet-name>
+	<display-name>UserIdAutoFill</display-name>
+	<description></description>
+	<servlet-class>userloginservletclasses.UserIdAutoFill</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>HotelBooking</servlet-name>
+	<display-name>HotelBooking</display-name>
+	<description></description>
+	<servlet-class>serversideclasses.HotelBooking</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>BookingHotel</servlet-name>
+	<display-name>BookingHotel</display-name>
+	<description></description>
+	<servlet-class>bookingservlet.BookingHotel</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>TicketCancelServlet</servlet-name>
+	<display-name>TicketCancelServlet</display-name>
+	<description></description>
+	<servlet-class>bookingservlet.TicketCancelServlet</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>BookingView</servlet-name>
+	<display-name>BookingView</display-name>
+	<description></description>
+	<servlet-class>bookingservlet.BookingView</servlet-class>
+</servlet>
+
+  <servlet-mapping>
+  	<servlet-name>CancelFlight</servlet-name>
+  	<url-pattern>/cancel-flight.html</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateFlight</servlet-name>
+  	<url-pattern>/update-flight.html</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SreachFlight</servlet-name>
+  	<url-pattern>/sreach-flight.html</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>InsertFlight</servlet-name>
+  	<url-pattern>/inser-ftlight.html</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ViewByAdmin</servlet-name>
+  	<url-pattern>/view-by-admin.html</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>InsertFlights</servlet-name>
+  	<url-pattern>/insert-flights.html</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteFlights</servlet-name>
+  	<url-pattern>/delete-flights.html</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpadateFlights</servlet-name>
+  	<url-pattern>/upadate-flights.html</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UserLoginServlet</servlet-name>
+  	<url-pattern>/user-login-servlet.html</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UserDeleteServlet</servlet-name>
+  	<url-pattern>/user-delete-data.html</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UserUpdateServlet</servlet-name>
+  	<url-pattern>/user-update-data.html</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UserViewServlet</servlet-name>
+  	<url-pattern>/user-data-view.html</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddHotel</servlet-name>
+  	<url-pattern>/add-hotel.html</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteHotel</servlet-name>
+  	<url-pattern>/delete-hotel.html</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateHotel</servlet-name>
+  	<url-pattern>/update-hotel.html</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateHotelName</servlet-name>
+  	<url-pattern>/update-hotel-name</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateHotelPlace</servlet-name>
+  	<url-pattern>/update-hotel-place.html</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateRoom</servlet-name>
+  	<url-pattern>/update-number-of-rooms.html</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ViewHotels</servlet-name>
+  	<url-pattern>/view-hotels.html</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ViewEditDelete</servlet-name>
+  	<url-pattern>/view-edit-delete.html</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UserSearchFlight</servlet-name>
+  	<url-pattern>/user-search-flight.html</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>InsertBooking</servlet-name>
+  	<url-pattern>/insert-booking.html</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UserIdAutoFill</servlet-name>
+  	<url-pattern>/user-id-autofill.html</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>HotelBooking</servlet-name>
+  	<url-pattern>/hotel-booking.html</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>BookingHotel</servlet-name>
+  	<url-pattern>/user-booking-hotel.html</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>TicketCancelServlet</servlet-name>
+  	<url-pattern>/ticket-cancel-servlet.html</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>BookingView</servlet-name>
+  	<url-pattern>/booking-view-servlet.html</url-pattern>
+  </servlet-mapping>
+</web-app>

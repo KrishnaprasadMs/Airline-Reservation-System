@@ -1,0 +1,72 @@
+<html>  
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<style>  
+body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+  
+}  
+.container {  
+    padding: 100px;  
+      background-image: url('https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F28%2F2019%2F07%2Fkatikies-hotel-greece-78-BESTHOTELSWB19.jpg');
+    
+}  
+label{
+color:white;
+}
+  
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+  margin_left:300 px;
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: orange;  
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 20px;  
+}  
+.registerbtn {  
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}  
+</style>  
+</head>  
+<body>  
+<form action="add-hotel.html" method="post" name="hotel_form">  
+  <div class="container">  
+  <center>  <h1> HOTEL DETAILS</h1> </center>  
+  <hr>  
+ 
+<label> Hotel Name : </label>   
+<input type="text" name="hotelname" placeholder="Hotelname" size="15" required />   
+<label> Hotel Place : </label>    
+<input type="text" name="hotelplace" placeholder="Hotelplace" size="15"required />   
+<label> Number Of Rooms in Hotel : </label>    
+<input type="text" name="numofrooms" placeholder="Numofrooms" size="15"required />   
+<label> Room Fare Per Day : </label>    
+<input type="text" name="fareperday" placeholder="Fareperday" size="15"required />   
+
+
+    <button type="submit" class="registerbtn">Add Hotel</button>    
+</form>  
+</body>  
+</html>  

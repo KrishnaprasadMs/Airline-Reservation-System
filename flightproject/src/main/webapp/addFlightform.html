@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add Flight</title>
+<script type="text/javascript" src="flightValidation.js">
+	
+</script>
+<style type="text/css">
+
+body {
+font-family: Arial;
+background-image:url("https://www.pesapal.com/media/1742/what-your-flight-engine-booking-must-have-to-increase-sales-blog-post-770x335.png");
+padding: 150px;
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div {
+background-color:skyblue;
+border: 4px solid transparent;
+border-radius: 3px;
+font-size: 16px;
+font-weight: 200;
+padding: 20px 0;
+width: 300px;
+transition: border .5s;
+}
+.btns1{
+margin-left:300px;
+width: 200px;
+height:30px;
+
+}
+.btns{
+margin-right:300px;
+width: 200px;
+height:30px;
+}
+input type[text]{
+margin:10px;
+}
+
+</style>
+<link type="text/css" rel="stylesheet" src="first.css">
+</head>
+<body>
+	<form action="insert-flights.html" onsubmit="return doValidate()">
+	<table>
+	<tr><td>
+		<div>
+		
+			<label for="idFlightName">    Flight Name   :   </label> <input type="text"
+				id="idFlightName" name="flightName">
+	</div></td>	
+		
+	<td>	<div>
+			<label for="idFlightNumber"> Flight Number: </label> <input
+				type="text" id="idFlightNumber" name="flightNumber">
+		</div></td>
+	<td>	<div>
+			<label for="idSource"> Source of flight: </label> <input type="text"
+				id="idSource" name="source">
+		</div></td></tr>
+
+  <tr><td>	<div>
+			<label for="idDestination"> Destination :   </label> <input type="text"
+				id="idDestination" name="destination">
+	</div>	</td>
+		<td><div>
+			<label for="idTravelDate"> End Date    : </label> <input type="text"
+				id="idTravelDate" name="travelDate">
+		</div></td>
+		<td><div>
+			<label for="idDepartureTime"> Departure Time  : </label> <input
+				type="text" id="idDepartureTime" name="departureTime">
+		</div></td>
+		<tr><td><div>
+			<label for="idArrivalTime"> Arrival Time   : </label> <input
+				type="text" id="idArrivalTime" name="arrivalTime">
+		</div></td>
+		<td><div>
+			<label for="idFlightCapacity"> Flight Capacity : </label> <input
+				type="text" id="idFlightCapacity" name="flightCapacity">
+		</div></td>
+		<td><div>
+			<label for="idFlightFare"> Flight Fare  : </label> <input
+				type="text" id=idFlightFare name="flightFare">
+	</td></div></tr>
+		
+		</table>
+		<table><tr><td>
+		<input type="submit" value="Add Flight" class="btns1" style="background-color:pink"></td>
+			<td> <input type="reset"value="Clear Data" class="btns" style="background-color:pink"></td>
+		</tr></table>
+			
+		
+	</form>
+	
+	
+		
+			
+	
+</body>
+</html>

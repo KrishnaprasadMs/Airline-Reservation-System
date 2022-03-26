@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+form > div {
+        margin-bottom: 10px;
+        padding-bottom: 4px;
+    }
+    label {
+        font-size:12pt;
+        display: inline-block;
+        width:48%;
+    }
+    input[type="text"] {
+        font-family:'consolas';
+        font-size:12pt;
+        width:20%;
+        padding:4px;
+    }
+    .btns {
+        text-align:center;
+    }
+    input[type="submit"], input[type="reset"] {
+        border-radius:25px;
+        padding:5px;
+        font-family:consolas;
+        font-size:10pt;
+    }
+  
+  
+  .dropdown {
+  display: inline-block;
+  position: relative;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a {
+  display: block;
+  color: #000000;
+  padding: 5px;
+  text-decoration: none;
+}
+.dropdown-content a:hover {
+  color: #FFFFFF;
+  background-color: #00A4BD;
+}
+body{
+      background-image: url('https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F28%2F2019%2F07%2Fkatikies-hotel-greece-78-BESTHOTELSWB19.jpg');
+
+}  
+
+
+</style>
+</head>
+<body>
+<h2>Update Hotel Details</h2>
+	<form action="" method="post" name="user_form" onsubmit="">
+	
+	<div>	
+	<label for="updatefield">Select the Field to be edited</label>
+		
+
+
+<div class="dropdown">
+  <button>Select Field</button>
+  <div class="dropdown-content">
+  <a href="hotelname-update.jsp">Name</a>
+  <a href="hotelplace-update.jsp">Place</a>
+  <a href="number-of-rooms-update.jsp">Number Of Rooms</a>
+    <a href="hotelfare-update.jsp">Fare Per Day</a>
+  
+  </div>
+</div>
+
+
+
+			
+	</form>
+</body>
+</html>

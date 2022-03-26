@@ -1,0 +1,73 @@
+<html>  
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<style>  
+body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+}  
+.container {  
+    padding: 250px;  
+      background-image: url('https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F28%2F2019%2F07%2Fkatikies-hotel-greece-78-BESTHOTELSWB19.jpg');
+
+}  
+  
+  label{
+color:white;
+}
+input[type=text], input[type=password], textarea {  
+  width: 50%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+  margin-left:240px;
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: orange;  
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+img{
+width:100px;
+height:100px;
+margin-left: 100px;
+}
+.deletebtn {  
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 50%;  
+  opacity: 0.9;  
+    margin-left:240px;
+  
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}  
+</style>  
+</head>  
+<body>  
+<form action="delete-hotel.html" method="post" name="hotel_form">  
+  <div class="container">  
+  
+  <center>  <h1>REMOVE HOTEL </h1> </center>  
+  
+ 
+<label> </label>   
+<input type="text" name="hotelid" placeholder="Hotelid" size="15" required />   
+
+
+    <button type="submit" class="deletebtn">Delete Hotel</button>    
+</form>  
+</body>  
+</html>  

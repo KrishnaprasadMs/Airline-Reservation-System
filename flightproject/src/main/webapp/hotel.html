@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+body {
+  background-image: url('https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F28%2F2019%2F07%2Fkatikies-hotel-greece-78-BESTHOTELSWB19.jpg');
+}
+.button {
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 4px;
+  cursor: pointer;
+}
+
+.button1 {background-color: #4CAF50;} /* Green */
+.button2 {background-color: #4CAF50;} /* Blue */
+div {
+  width: 100px;
+  height: 100px;
+  background-color: skyblue;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 10s infinite;
+}
+
+#div1 {animation-timing-function: linear;}
+#div2 {animation-timing-function: ease;}
+#div3 {animation-timing-function: ease-in;}
+#div4 {animation-timing-function: ease-out;}
+#div5 {animation-timing-function: ease-in-out;}
+
+@keyframes mymove {
+  from {left: 1500px;}
+  to {left: 0px;}
+}
+img{
+width:150px;
+height:150px;
+}
+</style>
+</head>
+<body><br><br>
+
+
+<a href="hoteladd.html"><button class="button button1">ADD HOTEL</button></a>
+<a href="hoteldelete.html"><button class="button button2">REMOVE HOTEL</button></a>
+<a href="hotelupdate.html"><button class="button button2">UPDATE HOTEL</button></a>
+<a href="view-hotels.html"><button class="button button2">VIEW HOTEL</button></a>
+<br><br>
+<div id="div1"><img src="https://www.ovalhotel.com.au/wp-content/uploads/sites/114/2020/05/Parking-Directions-Featured-Image-Oval-Hotel-Adelaide.jpg">Free Parking</div>
+<div id="div2"><img src="https://www.pngitem.com/pimgs/m/107-1074468_about-chicken-biryani-images-hd-png-transparent-png.png">Delicious Food</div>
+<div id="div3"><img src="https://ctl.s6img.com/society6/img/iqH8zzXy1W51Dv2b3ky328q285M/w_1500/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/ab44b11f4cf947cf838334d2077ab1b8/~~/balcony-with-an-ocean-view-prints.jpg">Sea view</div>
+<div id="div4"><img src="https://thumbs.dreamstime.com/b/swimming-pool-4879330.jpg">Swimming Pool</div>
+<div id="div5"><img src="https://www.teahub.io/photos/full/32-322195_wallpaper-for-desktop-laptop-nr20-party-club-dance.jpg">Party</div>
+
+</body>
+</html>

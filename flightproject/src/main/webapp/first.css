@@ -1,0 +1,27 @@
+@charset "ISO-8859-1";
+
+form > div {
+        margin-bottom: 10px;
+        padding-bottom: 4px;
+    }
+    label {
+        font-family:'consolas';
+        font-size:12pt;
+        display: inline-block;
+        width:48%;
+    }
+    input[type="text"] {
+        font-family:'consolas';
+        font-size:12pt;
+        width:48%;
+        padding:4px;
+    }
+    .btns {
+        text-align:center;
+    }
+    input[type="submit"], input[type="reset"] {
+        border-radius:25px;
+        padding:5px;
+        font-family:consolas;
+        font-size:10pt;
+    }
